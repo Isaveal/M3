@@ -1,0 +1,92 @@
+figure{
+    border-radius: 100%;
+    width: auto;
+    background-color: #f5f58b;
+    transition: width 2s, height 2s;
+}
+
+figure:hover{
+    width: 110%;
+    height: 110%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.alerta{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+.contenedorPadreRecibido{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.recibido{
+    background-color: rgb(239, 242, 236);
+}
+
+.contenedorPadreEnviado{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.enviado{
+    background-color:white;
+}
+
+.contenedorLogo{
+    width: 30px;
+    height: 24px;
+    background-color: yellow;
+    transition: background-color 2s;
+}
+
+.contenedorLogo:hover{
+    background-color: rgb(164, 240, 164);
+}
+
+.lasCopasOriginal{
+    fill:black;
+}
+
+.sinLeer{
+    font-weight: bold;
+}
+
+
+
+
+#contenedorMensajeEnviado{
+    display: none;
+}
+
+#chatCentral{
+    padding-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .lasCopasOriginal{
+        fill:rgb(183, 231, 135);
+    }
+
+    .contenedorLogo{
+        width: 30px;
+        height: 24px;
+        background-color:burlywood;
+    }
+
+    figure:hover{
+        width: 200%;
+        height: 200%;
+    }
+    
+    
+  }
